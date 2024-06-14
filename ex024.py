@@ -1,11 +1,8 @@
-
-
 print('========Desafio 24========')
 
+cidade_maiuscula = input('Em qual cidade você nasceu ? :').strip()
 
-cidade = input('Qual o nome da cidade? : ')
-
-cidade_maiuscula = cidade.upper()
+cidade_maiuscula = cidade_maiuscula.upper()
 
 comeca_com_santo = cidade_maiuscula.startswith('SANTO')
 
@@ -23,7 +20,9 @@ else:
 
 
 
-
+#cid = input('Em qual cidade você nasceu? ').strip()
+#print(cid[:5].upper() == 'SANTO')
+#print(cid[:5].upper() == 'SANTA')
 
 
 
